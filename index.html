@@ -10,18 +10,19 @@
 <body>
     <div class="container">
         <div class="header">
-            <div class="Search"><label for="find"><img src="img/search.svg" alt="" height="12px"></label><input
-                    type="search" name="find" id="find" placeholder="ask me anything"></div>
+            <div class="Search"><label for="find"><img src="img/search.svg" alt="" width="25px"></label><input
+                    type="search" name="find" id="find"></div>
             <ul class="link1">
-                <li><img src="img/alert.svg" alt="" width="25px"></li>
-                <li><img src="img/pic.svg" alt="" width="25px"></li>
-                <li>User Info</li>
+                <li><a href="#"><img src="img/alert.svg" alt="" width="24px"></a></li>
+                <li><img src="img/ava2.png" alt="" id="ava"></li>
+                <li>Morgan Oakley</li>
             </ul>
             <div class="Intro">
-                <img src="img/pic.svg" alt="" width="50px">
-                <h1>
-                    <p>Hi there,</p> guest visitor!
-                </h1>
+                <img src="img/ava2.png" alt="" id="userpic">
+                <div class="welcome">
+                    <p>Hi there,</p>
+                    <h2>Morgan Oakley (@morgan)</h2>
+                </div>
             </div>
             <ul class="link2">
                 <li><button class="new">New</button></li>
@@ -30,44 +31,94 @@
             </ul>
         </div>
         <div class="sidebar">
-            <div class="Dashboard"><img src="img/dashboard.svg" alt="">Dashboard</div>
-            <div class="Home"><img src="img/home.svg" alt="">Home</div>
-            <div class="Profile"><img src="img/profile.svg" alt="">Profile</div>
-            <div class="Messages"><img src="img/messages.svg" alt="">Messages</div>
-            <div class="History"><img src="img/history.svg" alt="">History</div>
-            <div class="Tasks"><img src="img/tasks.svg" alt="">Tasks</div>
-            <div class="Communities"><img src="img/communities.svg" alt="">Communities</div>
-            <div class="Settings"><img src="img/settings.svg" alt="">Settings</div>
-            <div class="Support"><img src="img/support.svg" alt="">Support</div>
-            <div class="Privacy"><img src="img/privacy.svg" alt="">Privacy</div>
+            <div class="Dashboard"><div><img src="img/dashboard.svg" alt="">Dashboard</div></div>
+            <div class="Home"><a href="#"><img src="img/home.svg" alt="" id="img">Home</a></div>
+            <div class="Profile"><a href="#"><img src="img/profile.svg" alt="" id="img">Profile</a></div>
+            <div class="Messages"><a href="#"><img src="img/messages.svg" alt="" id="img">Messages</a></div>
+            <div class="History"><a href="#"><img src="img/history.svg" alt="" id="img">History</a></div>
+            <div class="Tasks"><a href="#"><img src="img/tasks.svg" alt="" id="img">Tasks</a></div>
+            <div class="Communities"><a href="#"><img src="img/communities.svg" alt="" id="img">Communities</a></div>
+            <div class="Settings"><a href="#"><img src="img/settings.svg" alt="" id="img">Settings</a></div>
+            <div class="Support"><a href="#"><img src="img/support.svg" alt="" id="img">Support</a></div>
+            <div class="Privacy"><a href="#"><img src="img/privacy.svg" alt="" id="img">Privacy</a></div>
         </div>
         <div class="main">
             <div class="wrapper-1">
                 <h3>Your Projects</h3>
                 <div class="cards">
                     <div class="card-1">
-                        <h4>Super Cool Project</h4>
-                        <p>Sed lek kedik dion nova keli nie lemone</p>
+                        <div class="content">
+                            <h4>Super Cool Project</h4>
+                            <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis
+                                felis
+                                accumsan nec.</p>
+                        </div>
+                        <div class="card-links"><a href="#"><img src="img/favorite.svg" alt="" id="action"></a><a
+                                href="#">
+                                <img src="img/follow.svg" alt="" id="action">
+                            </a><a href="#"><img src="img/share.svg" alt="" id="action"></a></div>
                     </div>
                     <div class="card-2">
-                        <h4>Super Cool Project</h4>
-                        <p>Sed lek kedik dion nova keli nie lemone</p>
+                        <div class="content">
+                            <h4>Less Cool Project</h4>
+                            <p>Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt,
+                                consectetur sapien et, facilisis dolor. Duis sem purus, dignissim ut sapien in, varius
+                                pellentesque lacus.</p>
+                        </div>
+                        <div class="card-links"><a href="#"><img src="img/favorite.svg" alt="" id="action"></a><a
+                                href="#">
+                                <img src="img/follow.svg" alt="" id="action">
+                            </a><a href="#"><img src="img/share.svg" alt="" id="action"></a></div>
                     </div>
                     <div class="card-3">
-                        <h4>Super Cool Project</h4>
-                        <p>Sed lek kedik dion nova keli nie lemone</p>
+                        <div class="content">
+                            <h4>Impossible App</h4>
+                            <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis
+                            </p>
+                        </div>
+                        <div class="card-links"><a href="#"><img src="img/favorite.svg" alt="" id="action"></a><a
+                                href="#">
+                                <img src="img/follow.svg" alt="" id="action">
+                            </a><a href="#"><img src="img/share.svg" alt="" id="action"></a></div>
                     </div>
                     <div class="card-4">
-                        <h4>Super Cool Project</h4>
-                        <p>Sed lek kedik dion nova keli nie lemone</p>
+                        <div class="content">
+                            <h4>Easy Peasy App</h4>
+                            <p>Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan
+                                aliquam.
+                                Curabitur dignissim nisi in tortor commodo, ac bibendum magna tincidunt.</p>
+                        </div>
+                        <div class="card-links"><a href="#"><img src="img/favorite.svg" alt="" id="action"></a><a
+                                href="#">
+                                <img src="img/follow.svg" alt="" id="action">
+                            </a><a href="#"><img src="img/share.svg" alt="" id="action"></a></div>
                     </div>
                     <div class="card-5">
-                        <h4>Super Cool Project</h4>
-                        <p>Sed lek kedik dion nova keli nie lemone</p>
+                        <div class="content">
+                            <h4>Ad Blocker</h4>
+                            <p>Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendrerit
+                                felis.
+                                Aliquam sed malesuada
+                                eros.</p>
+                        </div>
+                        <div class="card-links"><a href="#"><img src="img/favorite.svg" alt="" id="action"></a><a
+                                href="#">
+                                <img src="img/follow.svg" alt="" id="action">
+                            </a><a href="#"><img src="img/share.svg" alt="" id="action"></a></div>
                     </div>
                     <div class="card-6">
-                        <h4>Super Cool Project</h4>
-                        <p>Sed lek kedik dion nova keli nie lemone</p>
+                        <div class="content">
+                            <h4>Money Maker</h4>
+                            <p>Praesent convallis, libero quis congue
+                                elementum, nunc ante faucibus sapien, ac scelerisque tortor purus sit amet ex.
+                                Pellentesque
+                                mollis nec sem vel aliquam.
+                            </p>
+                        </div>
+                        <div class="card-links"><a href="#"><img src="img/favorite.svg" alt="" id="action"></a><a
+                                href="#">
+                                <img src="img/follow.svg" alt="" id="action">
+                            </a><a href="#"><img src="img/share.svg" alt="" id="action"></a></div>
                     </div>
                 </div>
             </div>
@@ -76,15 +127,20 @@
                 <div class="announce">
                     <div class="item-1">
                         <h4>Site Maintenance</h4>
-                        <p>Veionidome noeil vel doira vi wal</p>
+                        <p>Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec hendrerit sodales
+                            congue...</p>
+                        <hr>
                     </div>
                     <div class="item-2">
-                        <h4>Site Maintenance</h4>
-                        <p>Veionidome noeil vel doira vi wal</p>
+                        <h4>Community Share Day</h4>
+                        <p>Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam dictum accumsan
+                            porttitor...</p>
+                        <hr>
                     </div>
                     <div class="item-3">
-                        <h4>Site Maintenance</h4>
-                        <p>Veionidome noeil vel doira vi wal</p>
+                        <h4>Updated Privacy Policy </h4>
+                        <p>Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla
+                            sagittis sem in mattis...</p>
                     </div>
                 </div>
             </div>
@@ -92,20 +148,33 @@
                 <h3>Trending</h3>
                 <div class="trend">
                     <div class="trend-1">
-                        <h4>@user</h4>
-                        <p>Title</p>
+                        <img src="img/ava1.png" alt="" id="ava">
+                        <div>
+                            <h4>@tegan</h4>
+                            <p>World Peace Builder</p>
+                        </div>
                     </div>
                     <div class="trend-2">
-                        <h4>@user</h4>
-                        <p>Title</p>
+                        <img src="img/ava2.png" alt="" id="ava">
+                        <div>
+                            <h4>@morgan</h4>
+                            <p>Super Cool Project</p>
+                        </div>
                     </div>
                     <div class="trend-3">
-                        <h4>@user</h4>
-                        <p>Title</p>
+                        <img src="img/ava3.png" alt="" id="ava">
+                        <div>
+                            <h4>@kendall</h4>
+                            <p>Life Changing App</p>
+                        </div>
                     </div>
                     <div class="trend-4">
-                        <h4>@user</h4>
-                        <p>Title</p>
+                        <img src="img/ava4.png" alt="" id="ava">
+                        <div>
+                            <h4>@alex</h4>
+                            <p>No Traffic Maker</p>
+                        </div>
+
                     </div>
                 </div>
             </div>
