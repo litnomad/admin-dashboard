@@ -1,13 +1,17 @@
-# admin dashboard design
+# Admin Dashboard Design
 
 Built based on an application of CSS knowledge to create a structured and responsive layout based on a dashboard example.
 
-Design is CSS grid based.
+Theme: 
+- Basic 
+- Pink and green (color)
 
-# Theme: 
-Basic pink and green 
+Features: 
+- A header
+- Sidebar navigation
+- Boxed contents
 
-# Features: 
-A header, sidebar navigation, and boxed contents. 
+Codes:
+- Design is CSS grid based
 
 See results here.
