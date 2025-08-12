@@ -7,7 +7,7 @@ Theme:
 - Pink and green (color)
 
 Features: 
-- A header
+- Header and searchbar
 - Sidebar navigation
 - Boxed contents
 
