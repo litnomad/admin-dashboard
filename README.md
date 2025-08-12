@@ -1,7 +1,7 @@
 # admin-dashboard
 
-Admin Dashboard
+Admin Dashboard Design
 
-A CSS layout that has a grid based design. 
+A grid based CSS layout. 
 
-See results.
+See display results.
