@@ -7,6 +7,7 @@ Built based on an application of CSS knowledge to create a structured and respon
 Design is CSS grid based.
 
 Theme: Basic pink and green 
+
 Features: A header, sidebar navigation, and boxed contents. 
 
-See display results here.
+See results here.
