@@ -1,6 +1,6 @@
 # Admin Dashboard Design
 
-Built based on the application of knowledge accumulated to create a structured and responsive layout based on a dashboard example.
+Built with the application of knowledge to create a structured and responsive layout that mimics a dashboard.
 
 Theme: 
 - Basic, minimal
