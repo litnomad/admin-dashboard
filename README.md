@@ -3,7 +3,7 @@
 Built based on the application of knowledge accumulated to create a structured and responsive layout based on a dashboard example.
 
 Theme: 
-- Basic / Minimalist
+- Minimalist
 - Black and white (color)
 
 Features: 
@@ -13,7 +13,5 @@ Features:
 
 Codes:
 - Design is CSS grid based
-
----
 
 See results here.
