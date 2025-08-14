@@ -1,6 +1,6 @@
 # Admin Dashboard Design
 
-Built with the application of CSS grid knowledge to create a structured and responsive layout that mimics a dashboard.
+Built with the application of CSS grid knowledge to create a structured and responsive layout that mimics a dashboard web page.
 
 Theme: 
 - Basic, minimal
