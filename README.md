@@ -3,8 +3,8 @@
 Built based on the application of knowledge accumulated to create a structured and responsive layout based on a dashboard example.
 
 Theme: 
-- Basic 
-- Pink and green (color)
+- Basic / Minimalist
+- Black and white (color)
 
 Features: 
 - Header and search bar
