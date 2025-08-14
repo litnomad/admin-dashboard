@@ -3,7 +3,7 @@
 Built based on the application of knowledge accumulated to create a structured and responsive layout based on a dashboard example.
 
 Theme: 
-- Minimalist
+- Basic, minimal
 - Black and white (color)
 
 Features: 
